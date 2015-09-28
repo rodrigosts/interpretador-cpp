@@ -1,0 +1,10 @@
+write ('Entre com uma string = ')
+read (palavra)
+writeln
+write ('O primeiro caracter eh = ')
+write (palavra[0])
+writeln 
+i = 0 
+write(palavra[i]) 
+writeln 
+endp 

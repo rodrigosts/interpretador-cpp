@@ -1,0 +1,6 @@
+write ('x')
+write ('=')
+read (x)
+writeln
+write (x)
+endp 

@@ -1,0 +1,12 @@
+write ('Entre com uma string = ') 
+read (palavra) 
+writeln 
+write ('As letras da palavra sao = ') 
+writeln 
+i = 0 
+while (i < palavra.length) 
+  write(palavra[i]) 
+  writeln 
+  i  = i + 1 
+endw 
+endp 

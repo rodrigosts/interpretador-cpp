@@ -1,0 +1,39 @@
+i = 1 
+z = 0 
+read(n) 
+n = n + 1 
+while(i < n) 
+  b = n - i 
+  write('" ') 
+  write(n) 
+  write('-') 
+  write(i) 
+  write(' = ') 
+  write(b) 
+  write('"') 
+  writeln 
+  b = b + 1 
+  write('" ') 
+  write(b) 
+  write('+') 
+  write('1') 
+  write(' = ') 
+  write(b) 
+  write('"') 
+  writeln 
+  write('"') 
+  j = 1 
+  while(j < b) 
+    write('_') 
+    j = j + 1 
+  endw 
+  a = i * 2 
+  j = 1 
+  while (j < a) 
+    write ('*') 
+    j = j + 1 
+  endw 
+  writeln 
+  i = i + 1 
+endw 
+endp 

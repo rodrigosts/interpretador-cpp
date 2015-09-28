@@ -1,0 +1,12 @@
+i = 0 
+read(b) 
+writeln 
+write(b) 
+writeln 
+writeln 
+while(i < b) 
+   write(i) 
+   writeln 
+   i = i + 1 
+endw 
+endp 
